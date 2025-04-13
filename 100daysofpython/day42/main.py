@@ -1,0 +1,21 @@
+# import google.generativeai as genai
+
+# client = genai.Client(api_key="AIzaSyC4CITfd35eWv4HoDPnjJcsfFXBD6b1xzE")
+
+# import google.generativeai as genai
+
+# genai.configure(api_key="AIzaSyC4CITfd35eWv4HoDPnjJcsfFXBD6b1xzE")
+
+# model = genai.GenerativeModel('gemini-pro')
+# # response = model.generate_content("Tell me a joke about AI.")
+# response = genai.list_models()
+# for i in response():
+#     print(i)
+from google import genai
+
+client = genai.Client(api_key="AIzaSyC4CITfd35eWv4HoDPnjJcsfFXBD6b1xzE")
+
+response = client.models.generate_content(
+    model="gemini-2.0-flash", contents="Explain how robots works in a 50 words, response in json"
+)
+print(response.text)
