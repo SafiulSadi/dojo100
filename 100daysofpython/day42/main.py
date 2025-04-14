@@ -12,10 +12,10 @@
 # for i in response():
 #     print(i)
 from google import genai
-
+promot = "Explain how robots works in a 50 words, response in json"
 client = genai.Client(api_key="AIzaSyC4CITfd35eWv4HoDPnjJcsfFXBD6b1xzE")
 
 response = client.models.generate_content(
-    model="gemini-2.0-flash", contents="Explain how robots works in a 50 words, response in json"
+    model="gemini-2.0-flash", contents=promot
 )
 print(response.text)
