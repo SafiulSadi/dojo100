@@ -23,3 +23,6 @@ response = client.models.generate_content(
 print(response.text)
 
 print(response.json())
+
+
+print("hello")
