@@ -23,6 +23,6 @@ response = client.models.generate_content(
 print(response.text)
 
 print(response.json())
-
+x = "the idea is to learn prompt engineering"
 
 print("hello")
