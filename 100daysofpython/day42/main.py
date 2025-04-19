@@ -25,4 +25,4 @@ print(response.text)
 print(response.json())
 x = "the idea is to learn prompt engineering"
 
-print("hello")
+print("hello, the idea is to use drone delivery and ai agent for education system")
