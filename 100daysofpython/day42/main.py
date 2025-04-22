@@ -29,3 +29,4 @@ print("hello, the idea is to use drone delivery and ai agent for education syste
 
 print("this agent can read emotion and then give feedback ")
 print("no progress has been made")
+print("how to pivot or should we pivor from drine idea")
