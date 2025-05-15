@@ -1,0 +1,21 @@
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.container{
+    align-items: center;
+}
+.bannar{
+    
+    padding: 20px;
+    height: 300px;
+
+}
+body{
+    background-color: #F3EAD9;
+}
+
+footer{
+    margin-top: 200px;
+    text-align: center;
+}

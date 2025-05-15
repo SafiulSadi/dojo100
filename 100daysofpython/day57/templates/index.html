@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jinja</title>
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+<body>
+    <img class="logo" src="./static/parasource_logo.jpg" alt="logo">
+    <div class="container">
+
+        <img class="bannar" src="./static/parasource_bannar.jpg" alt="bannar">
+    </div>
+    <h2>PARASOURCE</h2>
+    <h2>A contractor and supplier dedicated to construction, industrial supply, and niche contracting services.</h2>
+
+    <h3>See our <a href="{{url_for('blog')}}">blog</a></h3>
+</body>
+    
+    <footer>
+        <p>&copy; Copyright {{ copyright_year }} PARASOURCE. Created using Jinja</p>
+
+    </footer>
+
+</html>
